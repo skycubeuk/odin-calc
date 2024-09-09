@@ -15,6 +15,10 @@ body {
     justify-content: center;
 }
 
+.blk {
+    background-color: black;
+}
+
 .display {
     color: black;
     background-color: gray;
@@ -59,4 +63,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: default;
+    user-select: none;
+}
+
+.blk {
+    min-width: 70px;
+    min-height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+}
+
+.disbutton {
+    opacity: 0.5;
 }
