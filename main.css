@@ -55,10 +55,11 @@ body {
     gap: 3px
 }
 
-.cbtn {
+.cbtn,
+.blk,
+.opper  {
     min-width: 70px;
     min-height: 55px;
-    background-color: #217C7E;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -67,15 +68,19 @@ body {
     user-select: none;
 }
 
+.cbtn {
+    background-color: #217C7E;
+}
+
 .blk {
-    min-width: 70px;
-    min-height: 55px;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: default;
-    user-select: none;
+}
+.opper {
+    background-color: #217E30;
+}
+
+.canbtn {
+    background-color: #7E2121;
 }
 
 .disbutton {
